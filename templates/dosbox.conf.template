@@ -1,0 +1,18 @@
+[sdl]
+fullscreen=true
+output=opengl
+fullresolution=desktop
+
+[render]
+scaler=hq3x
+
+[cpu]
+cputype=pentium_slow
+cycles=max
+
+
+[autoexec]
+mount c ${resourcepath}
+c:
+call ${execcommand}
+exit

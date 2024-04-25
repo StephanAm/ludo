@@ -1,0 +1,7 @@
+Package: ${packagename}
+Version: ${version}
+Section: games
+Priority: optional
+Architecture: all
+Maintainer: Me <test@test.com>
+Description: "Classic Windows game, '${fullname}' wrapped in a DosBox launcher"

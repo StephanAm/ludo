@@ -1,0 +1,13 @@
+# https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html
+[Desktop Entry]
+Version=${version}
+Type=Application
+Name=${fullname}
+GenericName=${fullname}
+Comment=${comment}
+Icon=${icon}
+Exec=${exec}
+Path=${path}
+Actions=
+Categories=Game;
+Keywords=${name} ${fullname} ludo;
